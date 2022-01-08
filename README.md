@@ -1,5 +1,14 @@
 # MLAT-WAM-
 Solve 2D Multilateration problem
+    #"1623924000004404293:4,1623924000003618910:18,1623924000003779350:19",3,47.684189,8.524155
+    
+    #Provide positions of receivers [[Lat1,Long1,Altitude1],[Lat2,Long2,Altitude2],...] (if Altitude is unkown, set to 0). Lat, Long in degrees, Altitude in meters.
+    #Provide unix timestamps of receivers[timestamp1,timestamp2,timestamp3,...] with nanosecond units.
+    
+    #Of course, timestamp1 corresponds to receiver 1 (Lat1,Long1,Altitude1)
+    
+    
+    #Get reference is get smaller timestamp and the index on the receivers with that smaller timestamp.
     
     
     
